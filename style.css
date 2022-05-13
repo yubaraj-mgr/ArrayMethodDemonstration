@@ -52,21 +52,21 @@ button {
   border: 4px solid orange;
   border-radius: 10px;
   margin: 5px;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .title1 li {
   list-style: none;
   color: rgb(179, 127, 48);
   margin: 15px;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .title2 li {
   list-style: none;
   color: greenyellow;
   margin: 15px;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 h2 {
@@ -78,7 +78,7 @@ h1 {
 }
 
 .sum {
-  margin-top: 1.5rem;
+  margin-top: 1.5em;
   text-align: center;
 }
 
@@ -91,4 +91,26 @@ h1 {
 #addAll {
   background-color: rgb(23, 77, 23);
   color: white;
+}
+
+@media (max-width: 600px) {
+  .section {
+    width: 100%;
+  }
+
+  .title1 {
+    width: 50%;
+  }
+
+  .title2 {
+    width: 50%;
+  }
+
+  #person {
+    font-size: 10px;
+  }
+
+  #wealth {
+    font-size: 10px;
+  }
 }
